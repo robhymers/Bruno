@@ -19,13 +19,13 @@ echo "Syncing Downloads"
 rsync -r -t -v --progress --delete -s /home/rob/Downloads/ 192.168.1.61:/media/Storage/Bruno/Downloads/
 
 echo "Syncing Pictures" 
-rsync -r -t -v --progress --ignore-existing --delete -s /home/rob/Pictures/ 192.168.1.61:/media/Storage/Bruno/Pictures/
+rsync -r -t -v --progress --delete -s /home/rob/Pictures/ 192.168.1.61:/media/Storage/Bruno/Pictures/
 
 echo "Syncing Stuff"
-rsync -r -t -v --progress --ignore-existing --delete -s /home/rob/Stuff/ 192.168.1.61:/media/Storage/Bruno/Stuff/
+rsync -r -t -v --progress --delete -s /home/rob/Stuff/ 192.168.1.61:/media/Storage/Bruno/Stuff/
 
 echo "Syncing Videos"
-rsync -r -t -v --progress --ignore-existing --delete -s /home/rob/Videos/ 192.168.1.61:/media/Storage/Bruno/Videos/
+rsync -r -t -v --progress --delete -s /home/rob/Videos/ 192.168.1.61:/media/Storage/Bruno/Videos/
 
 echo "---------------------------"
 echo "- All directories synced! -"
