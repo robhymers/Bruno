@@ -1,1 +1,1 @@
-sudo pacman -S test
+sudo pacman -S test mc
