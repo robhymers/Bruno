@@ -1,0 +1,2 @@
+# scripts
+Linux setup scripts
