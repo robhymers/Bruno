@@ -25,7 +25,7 @@ echo "Syncing Stuff"
 rsync -r -t -v --progress --delete -s /home/rob/Stuff/ 192.168.1.61:/media/Storage/Bruno/Stuff/
 
 echo "Syncing Videos"
-rsync -r -t -v --progress --delete -s /home/rob/Videos/ 192.168.1.61:/media/Storage/Bruno/Videos/
+rsync -r -t -v --progress --delete -s /home/rob/Storage/Videos/ 192.168.1.61:/media/Storage/Bruno/Videos/
 
 echo "---------------------------"
 echo "- All directories synced! -"
