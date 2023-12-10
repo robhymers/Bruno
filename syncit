@@ -30,3 +30,5 @@ rsync -r -t -v --progress --delete -s /home/rob/Storage/Videos/ 192.168.1.61:/me
 echo "---------------------------"
 echo "- All directories synced! -"
 echo "---------------------------"
+
+# Rob Hymers 2023
