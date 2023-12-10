@@ -14,6 +14,13 @@ ssh-copy-id rob@server-ip
 
 ---
 
+- SSH
+
+sudo systemctl enable sshd
+sudo systemctl start sshd
+
+---
+
 - Numlock on during boot
 
 Add to /etc/sddm.conf
@@ -21,6 +28,17 @@ Add to /etc/sddm.conf
 [General]
 InputMethod=
 Numlock=on
+
+---
+
+- Install YAY
+
+cd /opt
+sudo git clone https://aur.archlinux.org/yay-git.git
+sudo chown -R rob:rob ./yay-git
+cd yay-git
+sudo pacman -S --needed base-devel
+makepkg -si
 
 ---
 
