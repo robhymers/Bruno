@@ -1,5 +1,4 @@
-# scripts
+# Install information
 
-Linux setup scripts
+Arch-based Linux setup information
 
-For installing packages after base ARCH install
