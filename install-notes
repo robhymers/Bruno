@@ -1,6 +1,7 @@
 ---
 
-pacman -S zsh neovim neofetch mc grsync vlc krusader thunderbird libreoffice-fresh xsane qbittorrent kolour-paint gimp hplip kdeplasma-addons oxygen gwenview grub-customizer timeshift
+pacman -S zsh neovim neofetch mc grsync vlc krusader thunderbird libreoffice-fresh xsane qbittorrent kolour-paint gimp
+hplip kdeplasma-addons oxygen gwenview grub-customizer timeshift xclip
 
 yay -S mercury-browser-bin thorium-browser-bin pamac-aur octopi
 
