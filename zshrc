@@ -36,8 +36,10 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 powerline-daemon -q
 . /usr/share/powerline/bindings/zsh/powerline.zsh
 
-#==============================================================================#=
-#                    Lines configured by zsh-newuser-install                    #
+#==============================================================================#
+#                    Lines configured by zsh-newuser-install                   #
+#==============================================================================#
+
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
