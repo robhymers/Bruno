@@ -6,6 +6,9 @@
 #pacman
 alias update="sudo pacman -Syyu"
 
+#remove orphans
+pacman -Qtdq | sudo pacman -Rns -
+
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
