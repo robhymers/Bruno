@@ -1,3 +1,8 @@
+
+#==============================================================================#
+#                    Lines configured by zsh-newuser-install                   #
+#==============================================================================#
+
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -34,6 +39,8 @@ alias lenny="ssh rob@192.168.1.59"
 # run cmatrix
 alias matrix="cmatrix -ba -u 2 -C green"
 
+# local weather
+wttr Brantford
 
 #=============================================================================#
 #                            Rob's Big Bag of Weird                           #
@@ -51,8 +58,5 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 powerline-daemon -q
 . /usr/share/powerline/bindings/zsh/powerline.zsh
 
-#==============================================================================#
-#                    Lines configured by zsh-newuser-install                   #
-#==============================================================================#
 
 
