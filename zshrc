@@ -21,7 +21,7 @@ compinit
 #===============================================================#
 
 #pacman
-alias update="sudo pacman -Syyu"
+alias update="sudo pacman -Syu"
 
 #remove orphans
 alias orphans="pacman -Qtdq | sudo pacman -Rns"

@@ -5,22 +5,22 @@
 set -e
 
 #echo "Syncing Bin"
-rsync -r -t --delete -s /home/rob/Bin/ 192.168.1.61:/media/Storage/Bruno/Bin/ >/dev/null 2>&1
+rsync -r -t --delete -s /home/rob/Bin/ 192.168.1.61:/media/Storage/Bruno/Bin/
 
 #echo "Syncing Documents"
-rsync -r -t --delete -s /home/rob/Documents/ 192.168.1.61:/media/Storage/Bruno/Documents/ >/dev/null 2>&1
+rsync -r -t --delete -s /home/rob/Documents/ 192.168.1.61:/media/Storage/Bruno/Documents/
 
 #echo "Syncing Downloads"
-rsync -r -t --delete -s /home/rob/Downloads/ 192.168.1.61:/media/Storage/Bruno/Downloads/ >/dev/null 2>&1
+rsync -r -t --delete -s /home/rob/Downloads/ 192.168.1.61:/media/Storage/Bruno/Downloads/
 
 #echo "Syncing Pictures"
-rsync -r -t --delete -s /home/rob/Pictures/ 192.168.1.61:/media/Storage/Bruno/Pictures/ >/dev/null 2>&1
+rsync -r -t --delete -s /home/rob/Pictures/ 192.168.1.61:/media/Storage/Bruno/Pictures/
 
 #echo "Syncing Stuff"
-rsync -r -t --delete -s /home/rob/Stuff/ 192.168.1.61:/media/Storage/Bruno/Stuff/ >/dev/null 2>&1
+rsync -r -t --delete -s /home/rob/Stuff/ 192.168.1.61:/media/Storage/Bruno/Stuff/
 
 #echo "Syncing Videos"
-rsync -r -t --delete -s /home/rob/Videos/ 192.168.1.61:/media/Storage/Bruno/Videos/ >/dev/null 2>&1
+rsync -r -t --delete -s /home/rob/Videos/ 192.168.1.61:/media/Storage/Bruno/Videos/
 
 date >> ~/Work/sync.txt
 
