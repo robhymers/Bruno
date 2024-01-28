@@ -40,7 +40,7 @@ alias lenny="ssh rob@192.168.1.59"
 alias matrix="cmatrix -ba -u 2 -C green"
 
 # local weather
-wttr Brantford
+alias weather="wttr Brantford"
 
 #=============================================================================#
 #                            Rob's Big Bag of Weird                           #
