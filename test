@@ -1,4 +1,4 @@
 #!/bin/sh
 
-date >> /home/rob/Work/test.txt
+date >> /home/rob/Work/crontest.txt
 
