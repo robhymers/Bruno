@@ -1,4 +1,7 @@
 ---
+To install from packagelist.txt file
+
+sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort packages.txt)) 
 
 pacman -S zsh neovim neofetch mc grsync vlc krusader thunderbird libreoffice-fresh xsane qbittorrent kolour-paint gimp
 hplip kdeplasma-addons oxygen gwenview grub-customizer timeshift xclip powerline powerline-fonts print-manager
