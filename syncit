@@ -7,9 +7,6 @@ clear
 
 echo "Preparing to upload to BORIS server..."
 
-echo "American Truck Simulator"
-#rsync -r -t -v --progress -s '/home/rob/.local/share/American Truck Simulator'/ 192.168.1.61:'/home/rob/.local/share/American Truck Simulator'
-
 echo "Apps"
 rsync -r -t -v --progress --delete -s /home/rob/Apps/ 192.168.1.61:/media/Storage/Bruno/Apps/
 
@@ -37,4 +34,4 @@ echo "---------------------------"
 echo "- All directories synced! -"
 echo "---------------------------"
 
-# Rob Hymers  2023
+# Created by Rob Hymers  2025
